@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home({posts}) {
 
-  //console.log(posts)
+
 
   return (
     <div className={styles.container}>
@@ -24,14 +24,14 @@ export default function Home({posts}) {
 
         <div className={styles.grid}>
           {posts.map(post=>{
-           return <Article post={post}/>
+           return <Article post={post} key={post.id}/>
           })}
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="www.workwithallenliu.com"
+          href="https://www.workwithallenliu.com/"
           target="_blank"
           rel="noopener noreferrer"
         >

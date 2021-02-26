@@ -2,8 +2,6 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
 export default function Article({post}){
-    
-    console.log(post)
     return(
         <>
         <Link href={`/blog/${post.id}`}>
