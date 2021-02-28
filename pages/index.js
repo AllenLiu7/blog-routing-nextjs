@@ -15,11 +15,11 @@ export default function Home({posts}) {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to My Blog 
+          Welcome to <span style={{color: 'red'}}>My Blog</span>
         </h1>
 
         <p className={styles.description}>
-        Share you ideas
+        Share ideas here
         </p>
 
         <div className={styles.grid}>
